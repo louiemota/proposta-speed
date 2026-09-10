@@ -6,3 +6,6 @@
 @media(max-width:1000px){.case-top{flex-wrap:wrap}.case-identity h3{font-size:32px}.client-logo-wide{width:172px}}
 @media(max-width:760px){.brand img{width:132px}header nav{gap:12px}.case-identity{align-items:center;gap:15px;width:100%}.client-logo{min-height:80px;padding:10px}.client-logo-wide{width:130px}.client-logo-square{width:92px}.case-identity .client-logo img{max-height:75px}.case-identity h3{font-size:28px}.case-top .small{font-size:10px;letter-spacing:.06em}.case-top{gap:18px}.period{font-size:11px;padding:6px 10px}.case-top p{font-size:14px}footer .brand img{width:156px}}
 @media(max-width:380px){header{padding:0 4%}.brand img{width:116px}nav>a:nth-child(2){display:none}.case-identity{flex-wrap:wrap}.case-identity>div:last-child{flex:1;min-width:130px}.client-logo-wide{width:115px}}
+
+/* Recorte de apresentação: indicadores e gráfico, preservando o print original. */
+.campaign-crop{position:relative;overflow:hidden;width:100%;aspect-ratio:3750/744;background:#fff}.campaign-crop img{position:absolute;left:-4.533333%;top:-44.354839%;width:107.893333%;max-width:none;height:auto;display:block}.calculation{font-size:14px;color:var(--muted)}
